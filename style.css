@@ -76,7 +76,7 @@ button {
     margin-top: 10px;
 }
 
-.more-btn, h3 {
+.more-btn, a {
     background-color: #ff0000; 
     color: #fff;
     padding: 10px 20px;
