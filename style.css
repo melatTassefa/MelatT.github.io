@@ -1,0 +1,146 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff0000; /* Replace with your desired color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-container {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image-row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+    padding: 20px; /* Padding around the container */
+}
+
+.image-item {
+    flex: 1 1 0px; /* Grow and shrink with equal width */
+    max-width: 30%; /* Ensure images don't exceed 30% of the container's width */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.description {
+    display: none; /* Hide descriptions initially */
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.more-btn {
+    background-color: #ff0000; /* Your desired color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+
+nav {
+    background-color: #ff0000;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #321515; /* Change color on hover */
+}
+
+body {
+    padding-top: 60px; /* Adjust based on the height of the navbar */
+}
