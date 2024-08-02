@@ -25,7 +25,7 @@ p {
 }
 
 button {
-    background-color: #ff0000; /* Replace with your desired color */
+    background-color: #ff0000; 
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -34,8 +34,8 @@ button {
 }
 
 .img-container {
-    width: 200px; /* Adjust size as needed */
-    height: 200px; /* Adjust size as needed */
+    width: 200px;
+    height: 200px; 
     overflow: hidden;
     border-radius: 50%;
     margin-top: 20px;
@@ -56,7 +56,7 @@ button {
 
 .image-item {
     flex: 1 1 0px; /* Grow and shrink with equal width */
-    max-width: 30%; /* Ensure images don't exceed 30% of the container's width */
+    max-width: 30%;
     overflow: hidden;
     border-radius: 10px; /* Rounded corners */
 }
@@ -76,8 +76,8 @@ button {
     margin-top: 10px;
 }
 
-.more-btn {
-    background-color: #ff0000; /* Your desired color */
+.more-btn, h3 {
+    background-color: #ff0000; 
     color: #fff;
     padding: 10px 20px;
     border: none;
